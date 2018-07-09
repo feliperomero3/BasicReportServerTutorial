@@ -1,8 +1,8 @@
 # Create a Basic Table Report (SSRS Tutorial)
 
-Tutorial diseñado para ayudarte a construir un reporte de tabla básico basado 
-en la base de datos de muestra AdventureWorks2012 usando el *Report Designer*.
-Este es el proyecto de SSRS resultante.
+Tutorial diseñado para ayudarte a construir un reporte de tabla básico de SSRS
+basado en la base de datos de muestra AdventureWorks2012 usando el *Report Designer*
+de Visual Studio con SSDT.
 
 Fuente: [Microsoft Docs](https://docs.microsoft.com/en-us/sql/reporting-services/create-a-basic-table-report-ssrs-tutorial)
 
