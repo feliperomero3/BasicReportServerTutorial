@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BasicReportServerTutorial", "BasicReportServerTutorial\BasicReportServerTutorial.rptproj", "{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Debug|Default.ActiveCfg = Debug
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Debug|Default.Build.0 = Debug
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Debug|Default.Deploy.0 = Debug
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.DebugLocal|Default.Build.0 = DebugLocal
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Release|Default.ActiveCfg = Release
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Release|Default.Build.0 = Release
+		{4DDAAEC6-51C8-46D9-8CE0-F0A1755E8FD7}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
