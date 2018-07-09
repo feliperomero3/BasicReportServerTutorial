@@ -16,6 +16,7 @@
       <Options>
         <OutputPath>bin\Debug</OutputPath>
         <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://itjromero.solmar.com:8000/ReportServer_DEVELOPER</TargetServerURL>
         <TargetFolder>BasicReportServerTutorial</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
