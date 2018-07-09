@@ -6,13 +6,13 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.60069in</Width>
+              <Width>1.07986in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.60069in</Width>
+              <Width>1.12153in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.60069in</Width>
+              <Width>2.16319in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -23,7 +23,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.51042in</Height>
+              <Height>0.30208in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -67,7 +67,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Order</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -97,7 +99,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Product</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -127,7 +131,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Qty</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -157,7 +163,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Line Total</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -180,7 +188,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.51042in</Height>
+              <Height>0.3125in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -192,7 +200,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Date.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>MMMM d, yyyy</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -312,7 +322,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!LineTotal.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>'$'#,0.00;('$'#,0.00)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -328,6 +340,7 @@
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
                         <PaddingBottom>2pt</PaddingBottom>
+                        <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -358,8 +371,8 @@
         <DataSetName>AdventureWorksDataset</DataSetName>
         <Top>0.22792in</Top>
         <Left>0.20708in</Left>
-        <Height>1.02083in</Height>
-        <Width>6.80208in</Width>
+        <Height>0.61458in</Height>
+        <Width>6.36458in</Width>
         <Style>
           <Border>
             <Style>None</Style>
