@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
-	<Width>6.5in</Width>
-	<Body>
-		<Height>2in</Height>
-	</Body>
-	<rd:ReportTemplate>true</rd:ReportTemplate>
+  <Body>
+    <Height>2in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
   <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
   </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="AdventureWorks2012">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=ITJROMERO\DEVELOPER;Initial Catalog=AdventureWorks2012</ConnectString>
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>f8a6d879-870e-4e54-8908-855c673c8cfc</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>6bfa6c0c-3482-4c8f-85bc-2bf00e9f002e</rd:ReportID>
 </Report>
